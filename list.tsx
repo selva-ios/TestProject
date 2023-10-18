@@ -94,7 +94,7 @@ const styleSheet = StyleSheet.create({
     padding: 4,
   },
 });
-//Find non repeating charactor
+// ------ Find non repeating charactor ------
 // function findNonRepeatingChar(str: string) {
 //     let arr = Array(str);
 //     for (let i = 0; i < arr.length; i++) {
@@ -114,25 +114,4 @@ const styleSheet = StyleSheet.create({
 //         break;
 //       }
 //     }
-//   }
-// type SectionProps = PropsWithChildren<{
-//     item: Joke;
-//   }>;
-//   function CellItem(item: Joke): JSX.Element {
-//     return (
-//       <View style={styleSheet.cell}>
-//         {/* <Image
-//             source={{uri: item.icon_url}}
-//             style={{width: 40, height: 40}}
-//           /> */}
-//         <Text style={{padding: 12, flex: 1}}> {item.value}</Text>
-//         <Text
-//           style={{
-//             textAlign: 'center',
-//             padding: 4,
-//           }}>
-//           {item.is_fav ? 'Fav' : 'UnFav'}
-//         </Text>
-//       </View>
-//     );
 //   }
